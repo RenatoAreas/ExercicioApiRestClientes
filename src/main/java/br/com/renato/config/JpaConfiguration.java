@@ -17,7 +17,7 @@ public class JpaConfiguration {
 	@Bean
 	public LocalEntityManagerFactoryBean entityManagerFactory() {
 		LocalEntityManagerFactoryBean factoryBean = new LocalEntityManagerFactoryBean();
-		factoryBean.setPersistenceUnitName("conecxao_mysql");
+		factoryBean.setPersistenceUnitName("conexao_mysql");
 
 		return factoryBean;
 	}
